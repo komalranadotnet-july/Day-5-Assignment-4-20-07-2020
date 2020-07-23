@@ -1,0 +1,66 @@
+<html>
+   <head>
+       <h1>Example of Zindex</h1>
+       <style>
+.div1
+{
+    background-color:red;
+         width:300px;
+         height:100px;
+         position:relative;
+         top:10px;
+         left:80px;
+         z-index:1;
+
+}
+.div2
+{
+    background-color:yellow;
+         width:300px;
+         height:100px;
+         position:relative;
+         top:-60px;
+         left:35px;
+         z-index:-1;
+}
+.div3
+{
+    background-color:green;
+         width:300px;
+         height:100px;
+         position:relative;
+         top:-220px;
+         left:120px;
+         z-index:3;
+}
+
+.div4{
+    background-color:pink;
+         width:300px;
+         height:100px;
+         position:relative;
+         top:-220px;
+         left:120px;
+         z-index:auto;
+}
+
+
+
+
+       </style>
+   </head>
+   
+   <body>
+      <div class="div1">The zindex is 1</div>
+      
+      
+      <div class="div2">The zindex is -1</div> 
+      
+      
+      <div class="div3">The zindex is 3</div>
+
+      <div class="div4">The zindex is auto</div>
+
+
+   </body>
+</html> 
